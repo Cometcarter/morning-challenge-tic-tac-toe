@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.layout {
+    display: grid;
+    width: 100vw;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 1px solid;
+    outline: auto;
+    margin: 2px;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+h1 {
+    margin-left: 44%;
+}
+
+h2 {
+    margin-left: 20%;
+}
+
+.pt {
+    margin: 20%;
+}
+
+button {
+    margin-left: 20%;
+}
